@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+#titles{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    text-decoration: underline;
+}
+#modal{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border:  solid 2px black;
+    padding: 10px 10px;
+    flex-direction: column;
+    border-radius: 6px;
+}
+.open{
+    display: flex;
+}
+.closed{
+    display: none;
+}
+#exitBtn:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+#title{
+    font-size: 1.625rem;
+    font-weight: 900;
+}
+#body{
+    font-size: 1.25rem;
+}
